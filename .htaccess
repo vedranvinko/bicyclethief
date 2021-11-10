@@ -1,0 +1,7 @@
+
+RewriteEngine on
+RewriteCond %{HTTPS} off
+RewriteCond %{HTTP:X-Forwarded-SSL} !on
+RewriteCond %{HTTP_HOST} ^www\.bicyclethief\.org$
+RewriteRule ^/?$ "https\:\/\/bicyclethief\.org\/" [R=301,L]
+

@@ -1,0 +1,7 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans&family=Special+Elite&family=Ubuntu+Mono&display=swap');
+
+.tag { font-family: 'Special Elite', cursive; font-size: 50px; margin-top: 200px; }
+
+.tag a { text-decoration: none; }
+
+.tc { text-align: center; }
