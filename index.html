@@ -6,23 +6,51 @@
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <link rel="stylesheet" href="css/normalize.css">
   <link rel="stylesheet" href="css/skeleton.css">
-  <link rel="stylesheet" href="css/style.css">
   <link rel="stylesheet" href="css/github.min.css">
   <script src="highlight.min.js"></script>
   <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png">
   <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
   <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png">
   <link rel="manifest" href="/site.webmanifest">
+  <style>
+    header { margin-top: 100px; }
+    .tc { text-align: center; }
+    .title { font-family: monospace; font-size: 1.2em; }
+  </style>
 </head>
 <body>
     <div class="container">
-        <header>
         <div class="row">
-            <pre><code class="language-bash">$ whoami
+            <header>
+                <pre><code class="language-bash">$ whoami
 bicyclethief - a devops engineer, working with Rust, infrastructure and weird glitches</code></pre>
+            </header>
         </div>
-        </header>
+        <div class="row">
+        </div>
+        <div class="row">
+            <pre><code class="language-bash">bicyclethief(1)
+
+NAME
+        bicyclethief
+
+SYNOPSIS
+        bicyclethief [URL]...
+
+DESCRIPTION
+        -a, --about
+                Get info about bicyclethief and this page
+        -b, --blog
+                Get list of all blog posts
+
+AUTHOR
+        bicyclethief
+
+COPYRIGHT
+        &copy; 2021. All rights reserved.
+            </code></pre>
+        </div>
     </div>
+    <script>hljs.highlightAll();</script>
 </body>
-<script>hljs.highlightAll();</script>
 </html>
