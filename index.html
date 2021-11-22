@@ -20,6 +20,9 @@
 <body>
     <div class="container">
         <div class="row">
+        
+        </div>
+        <div class="row">
             <header>
                 <pre><code class="language-bash">$ whoami
 bicyclethief - a devops engineer, working with Rust, infrastructure and weird glitches</code></pre>
@@ -38,13 +41,9 @@ SYNOPSIS
 
 DESCRIPTION
         -a, --about
-                GET /about    Get info about bicyclethief and this page
-        -b, --blog
-                GET /blog     Get list of all blog posts
+                Get info about bicyclethief and this page
         -p, --projects
-                GET /projects Get list of all projects
-        -r, --random
-                GET /random   Get some random stuff
+                Some of the more interesting projects
 
 AUTHOR
         bicyclethief
@@ -52,6 +51,18 @@ AUTHOR
 COPYRIGHT
         &copy; 2021. All rights reserved.
             </code></pre>
+        </div>
+        <div class="row">
+            <pre><code class="language-bash">$ bicyclethief --about</code></pre>
+        </div>
+        <div class="row">
+           <pre><code class="language-json">{
+    "name": "bicyclethief",
+    "home": ["infrastructure", "ruby", "rust"],
+    "work": "devops engineer @ Digacon",
+    "status": "I know, I'm making a leap. It's a little leap, though. It's more of a hop.",
+    "version": "1.0.0"
+}</code></pre> 
         </div>
     </div>
     <script>hljs.highlightAll();</script>
