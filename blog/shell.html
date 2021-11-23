@@ -2,7 +2,7 @@
 <html lang="en">
 <head>
   <meta charset="utf-8">
-  <title>bicyclethief - blog</title>
+  <title>bicyclethief - blog - shell</title>
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <link rel="stylesheet" href="../css/normalize.css">
   <link rel="stylesheet" href="../css/skeleton.css">
@@ -21,14 +21,24 @@
     <div class="container">
         <div class="row">
             <header>
-                <pre><code class="language-bash">$ bicyclethief --writings</code></pre>
+                <pre><code class="language-bash">$ cat shell-tips-and-tricks-ongoing-battle-for-control</code></pre>
             </header>
         </div>
         <div class="row">
-            pinned
+            <pre><code>TITLE: Shell tips and tricks - ongoing battle for control
+DATE: 2021-11-20
+TIME: 12:04
+AUTHOR: bicyclethief
+DESCRIPTION: Trying to collect bash magic in one place</code></pre>
+        </div>
+        <hr />
+        <div class="row">
+            <h2>git + bash = good stuff</h2>
+            <pre><code class="language-bash">for remote in `git branch -r | grep -v master `; do git checkout --track $remote ; done</code></pre>
         </div>
     </div>
     <script>hljs.highlightAll();</script>
 </body>
 </html>
+
 
